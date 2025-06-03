@@ -57,12 +57,12 @@ const Testimonials = () => {
                 <div className="flex items-center justify-between mb-3">
                   <div>
                     <h3 className="font-semibold">{testimonial.name}</h3>
-                    <p className="text-sm text-text-secondary">{testimonial.location}</p>
+                    <p className="text-sm text-content">{testimonial.location}</p>
                   </div>
                   <StarRating rating={testimonial.rating} />
                 </div>
               </div>
-              <p className="text-text-secondary italic">&ldquo;{testimonial.review}&rdquo;</p>
+              <p className="text-content italic">&ldquo;{testimonial.review}&rdquo;</p>
             </div>
           ))}
         </div>

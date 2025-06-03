@@ -87,7 +87,7 @@ const BookingForm = () => {
                 <IconComponent className="w-6 h-6 text-blue-500" />
                 <div className="font-medium ml-2">{serviceItem.name}</div>
               </div>
-              <p className="text-sm text-gray-600">{serviceItem.description}</p>
+              <p className="text-sm text-black">{serviceItem.description}</p>
             </div>
           );
         })}
@@ -110,7 +110,7 @@ const BookingForm = () => {
     <div>
       <h2 className="text-2xl font-semibold mb-6">Select Doctor & Appointment Time</h2>
       <div className="mb-6">
-        <label htmlFor="doctor" className="block text-gray-700 mb-2">Select Doctor</label>
+        <label htmlFor="doctor" className="block text-black mb-2">Select Doctor</label>
         <select
           id="doctor"
           name="doctor"
@@ -129,7 +129,7 @@ const BookingForm = () => {
       </div>
 
       <div className="mb-6">
-        <label htmlFor="date" className="block text-gray-700 mb-2">Select Date</label>
+        <label htmlFor="date" className="block text-black mb-2">Select Date</label>
         <div className="relative">
           <FiCalendar className="absolute left-3 top-3 text-gray-400" />
           <input
@@ -145,7 +145,7 @@ const BookingForm = () => {
       </div>
 
       <div className="mb-6">
-        <label className="block text-gray-700 mb-2">Select Time</label>
+        <label className="block text-black mb-2">Select Time</label>
         <div className="grid grid-cols-3 md:grid-cols-4 gap-3">
           {timeSlots.map((time) => (
             <div
@@ -192,26 +192,26 @@ const BookingForm = () => {
       <h2 className="text-2xl font-semibold mb-6">Your Information</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <div>
-          <label htmlFor="firstName" className="block text-gray-700 mb-2">First Name</label>
+          <label htmlFor="firstName" className="block text-black mb-2">First Name</label>
           <input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required />
         </div>
         <div>
-          <label htmlFor="lastName" className="block text-gray-700 mb-2">Last Name</label>
+          <label htmlFor="lastName" className="block text-black mb-2">Last Name</label>
           <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required />
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <div>
-          <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
+          <label htmlFor="email" className="block text-black mb-2">Email</label>
           <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required />
         </div>
         <div>
-          <label htmlFor="phone" className="block text-gray-700 mb-2">Phone</label>
+          <label htmlFor="phone" className="block text-black mb-2">Phone</label>
           <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required />
         </div>
       </div>
       <div className="mb-4">
-        <label htmlFor="reason" className="block text-gray-700 mb-2">Reason for Visit</label>
+        <label htmlFor="reason" className="block text-black mb-2">Reason for Visit</label>
         <textarea id="reason" name="reason" value={formData.reason} onChange={handleChange} rows={4} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
       </div>
       <div className="flex justify-between mt-8">
@@ -228,13 +228,13 @@ const BookingForm = () => {
       <div className="bg-gray-50 p-4 rounded-md mb-6">
         <h3 className="text-lg font-medium mb-3">Appointment Summary</h3>
         <div className="grid grid-cols-2 gap-y-2">
-          <div className="text-gray-600">Service:</div>
+          <div className="text-black">Service:</div>
           <div>{services.find(s => s.id === formData.service)?.name}</div>
-          <div className="text-gray-600">Doctor:</div>
+          <div className="text-black">Doctor:</div>
           <div>{doctors.find(d => d.id === formData.doctor)?.name}</div>
-          <div className="text-gray-600">Date:</div>
+          <div className="text-black">Date:</div>
           <div>{formData.date}</div>
-          <div className="text-gray-600">Time:</div>
+          <div className="text-black">Time:</div>
           <div>{formData.time}</div>
         </div>
         <div className="mt-4 pt-4 border-t border-gray-200">
@@ -245,7 +245,7 @@ const BookingForm = () => {
         </div>
       </div>
       <div className="mb-6">
-        <label className="block text-gray-700 mb-2">Payment Method</label>
+        <label className="block text-black mb-2">Payment Method</label>
         <div className="space-y-3">
           <label className="flex items-center p-3 border rounded-md cursor-pointer">
             <input type="radio" name="paymentMethod" value="credit-card" checked={formData.paymentMethod === 'credit-card'} onChange={handleChange} className="mr-3" />

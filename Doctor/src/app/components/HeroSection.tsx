@@ -10,7 +10,7 @@ const HeroSection = () => {
             <h1 className="mb-4">
               See a Doctor Online, Anytime
             </h1>
-            <p className="text-xl text-text-secondary mb-8">
+            <p className="text-xl text-content mb-8">
               Get expert medical advice, prescriptions, and more — from the comfort of your home.
             </p>
             <Link 

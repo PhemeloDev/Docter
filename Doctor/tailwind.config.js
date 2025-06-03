@@ -9,13 +9,23 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#2563eb',
-          hover: '#1d4ed8'
+          light: '#EEF6FB',
+          medium: '#A8D8F0', 
+          dark: '#0288D1',
+          DEFAULT: '#0288D1',
+          hover: '#0277BD'
         },
-        secondary: '#f3f4f6',
+        secondary: '#F7F9FA',
+        'light-gray': '#F7F9FA',
+        'text-primary': '#171717',
+        'text-secondary': '#6B7280',
       },
       fontFamily: {
         sans: ['var(--font-open-sans)'],
+      },
+      spacing: {
+        '18': '4.5rem',
+        '88': '22rem',
       },
     },
   },

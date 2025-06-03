@@ -18,29 +18,29 @@ const Header = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            <Link href="/" className="text-gray-700 hover:text-primary transition-colors">
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link href="/" className="text-black hover:text-primary transition-colors">
               Home
             </Link>
-            <Link href="/services" className="text-gray-700 hover:text-primary transition-colors">
+            <Link href="/services" className="text-black hover:text-primary transition-colors">
               Services
             </Link>
-            <Link href="/book" className="text-gray-700 hover:text-primary transition-colors">
+            <Link href="/book" className="text-black hover:text-primary transition-colors">
               Book a Doctor
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-primary transition-colors">
+            <Link href="/about" className="text-black hover:text-primary transition-colors">
               About Us
             </Link>
-            <Link href="/faqs" className="text-gray-700 hover:text-primary transition-colors">
+            <Link href="/faqs" className="text-black hover:text-primary transition-colors">
               FAQs
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-primary transition-colors">
+            <Link href="/contact" className="text-black hover:text-primary transition-colors">
               Contact
             </Link>
           </nav>
           
           {/* Authentication Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-6">
             <Link 
               href="/login" 
               className="btn-secondary"
@@ -82,50 +82,50 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t">
-            <nav className="flex flex-col space-y-4 pt-4">
+            <nav className="flex flex-col space-y-6 pt-4">
               <Link 
                 href="/" 
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-black hover:text-primary transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/services" 
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-black hover:text-primary transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Services
               </Link>
               <Link 
                 href="/book" 
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-black hover:text-primary transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Book a Doctor
               </Link>
               <Link 
                 href="/about" 
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-black hover:text-primary transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About Us
               </Link>
               <Link 
                 href="/faqs" 
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-black hover:text-primary transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 FAQs
               </Link>
               <Link 
                 href="/contact" 
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-black hover:text-primary transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact
               </Link>
-              <div className="flex flex-col space-y-2 pt-4">
+              <div className="flex flex-col space-y-3 pt-6">
                 <Link 
                   href="/login" 
                   className="btn-secondary text-center"

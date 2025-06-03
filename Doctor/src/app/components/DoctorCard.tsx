@@ -25,7 +25,7 @@ const DoctorCard = ({ doctor }: { doctor: DoctorProps }) => {
       </div>
       
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-gray-800 mb-1">{doctor.name}</h3>
+        <h3 className="text-xl font-semibold text-black mb-1">{doctor.name}</h3>
         <p className="text-blue-600 font-medium mb-2">{doctor.specialty}</p>
         
         <div className="mb-4 flex items-center">
@@ -39,12 +39,12 @@ const DoctorCard = ({ doctor }: { doctor: DoctorProps }) => {
               />
             ))}
           </div>
-          <span className="text-sm text-gray-500">({doctor.rating}.0)</span>
+          <span className="text-sm text-black">({doctor.rating}.0)</span>
         </div>
         
         <div className="mb-4">
-          <p className="text-gray-700"><span className="font-medium">Experience:</span> {doctor.experience}</p>
-          <p className="text-gray-700">
+          <p className="text-black"><span className="font-medium">Experience:</span> {doctor.experience}</p>
+          <p className="text-black">
             <span className="font-medium">Languages:</span> {doctor.languages.join(', ')}
           </p>
         </div>
