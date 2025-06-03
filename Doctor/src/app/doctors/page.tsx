@@ -65,16 +65,16 @@ export default function DoctorsPage() {
     <main>
       <Header />
       
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
-            Our Doctors
-          </h1>
-          <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            Meet our team of experienced healthcare professionals ready to provide you with quality care.
-          </p>
+      <section className="section-padding bg-light-gray">
+        <div className="container-max">
+          <div className="text-center mb-16">
+            <h1 className="mb-4">Our Doctors</h1>
+            <p className="text-subtitle max-w-3xl mx-auto">
+              Meet our team of experienced healthcare professionals ready to provide you with quality care.
+            </p>
+          </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             {doctors.map((doctor) => (
               <DoctorCard key={doctor.id} doctor={doctor} />
             ))}

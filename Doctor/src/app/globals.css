@@ -21,11 +21,7 @@
   --accent: var(--primary-medium);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-family);
-}
+/* Theme integration removed - using CSS variables instead */
 
 * {
   box-sizing: border-box;
@@ -43,25 +39,39 @@ body {
   width: 100%;
 }
 
-/* Typography Scale - Following Design Specs */
+/* Typography Scale - Professional & Consistent */
 h1 {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.2;
-  color: black;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 h2 {
-  font-size: 24px;
+  font-size: clamp(24px, 3vw, 32px);
   font-weight: 600;
-  line-height: 1.3;
-  color: black;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
 }
 
 h3 {
-  font-size: 20px;
+  font-size: clamp(20px, 2.5vw, 24px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+h4 {
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
 }
 
 body {
@@ -109,6 +119,80 @@ button {
 .btn-secondary:hover {
   background-color: var(--primary);
   color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(2, 136, 209, 0.2);
+}
+
+/* Enhanced Button States */
+.btn-primary,
+.btn-secondary {
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(2, 136, 209, 0.3);
+}
+
+.btn-primary:focus,
+.btn-secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(2, 136, 209, 0.3);
+}
+
+.btn-primary:active,
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Button Sizes */
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.btn-lg {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+/* Ghost Button */
+.btn-ghost {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 2px solid transparent;
+  padding: 8px 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-ghost:hover {
+  background-color: var(--primary-light);
+  color: var(--primary);
 }
 
 /* Accessibility Focus Indicators */
@@ -153,29 +237,105 @@ html {
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  border-color: var(--primary);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.06);
+  border-color: var(--primary-light);
 }
 
-/* Form Styling */
+/* Card Enhancement */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-medium) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Card Variants */
+.card-interactive {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-elevated {
+  box-shadow: 0 8px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card-flat {
+  box-shadow: none;
+  border: 2px solid #F3F4F6;
+}
+
+/* Enhanced Form Styling */
 .form-input {
   width: 100%;
   padding: 14px 18px;
   border: 2px solid #E5E7EB;
   border-radius: 8px;
   font-size: 16px;
-  transition: border-color 0.2s ease;
+  transition: all 0.2s ease;
   background-color: white;
   font-family: inherit;
   min-height: 44px;
   color: var(--text-primary);
+  position: relative;
+}
+
+.form-input:hover {
+  border-color: #D1D5DB;
 }
 
 .form-input:focus {
   border-color: var(--primary);
   outline: none;
   box-shadow: 0 0 0 3px rgba(2, 136, 209, 0.1);
+  transform: translateY(-1px);
+}
+
+.form-input::placeholder {
+  color: #9CA3AF;
+  transition: color 0.2s ease;
+}
+
+.form-input:focus::placeholder {
+  color: #D1D5DB;
+}
+
+/* Form Labels */
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 24px;
+}
+
+/* Error States */
+.form-input.error {
+  border-color: #EF4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.form-error {
+  color: #EF4444;
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 500;
 }
 
 /* Responsive Design */
@@ -221,6 +381,91 @@ html {
   color: var(--text-primary);
 }
 
+/* Professional Utility Classes */
+.text-display {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.text-subtitle {
+  font-size: clamp(18px, 2vw, 20px);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.text-caption {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
+/* Layout Utilities */
+.section-padding {
+  padding: clamp(60px, 8vw, 120px) 0;
+}
+
+.section-padding-sm {
+  padding: clamp(40px, 6vw, 80px) 0;
+}
+
+/* Professional Shadows */
+.shadow-soft {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-medium {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-strong {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+}
+
+/* Hover Utilities */
+.hover-lift {
+  transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
+
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Focus States */
+.focus-ring {
+  transition: box-shadow 0.2s ease;
+}
+
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(2, 136, 209, 0.3);
+}
+
+/* Interactive States */
+.interactive {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.interactive:hover {
+  opacity: 0.8;
+}
+
+.interactive:active {
+  transform: scale(0.98);
+}
+
 /* Animation utilities */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
@@ -229,6 +474,10 @@ html {
 
 .fade-in {
   animation: fadeIn 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
 }
 
 /* Loading spinner */
