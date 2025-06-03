@@ -141,7 +141,7 @@ const BookingPage = () => {
         {[1, 2, 3].map((stepNumber) => (
           <div key={stepNumber} className="flex items-center">
             <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold ${
-              step >= stepNumber ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'
+              step >= stepNumber ? 'bg-primary text-white' : 'bg-gray-200 text-black'
             }`}>
               {stepNumber}
             </div>
@@ -168,10 +168,10 @@ const BookingPage = () => {
           >
             <div className="text-4xl mb-4">{service.icon}</div>
             <h3 className="mb-2">{service.name}</h3>
-            <p className="text-text-secondary mb-4 text-sm">{service.description}</p>
+            <p className="text-content mb-4 text-sm">{service.description}</p>
             <div className="flex justify-between items-center">
               <span className="text-lg font-semibold text-primary">${service.basePrice}</span>
-              <span className="text-sm text-text-secondary">{service.duration} min</span>
+              <span className="text-sm text-content">{service.duration} min</span>
             </div>
           </div>
         ))}
@@ -193,7 +193,7 @@ const BookingPage = () => {
 
       {selectedService && (
         <div className="bg-primary-light p-4 rounded-lg mb-6">
-          <p className="text-sm text-text-secondary">Selected Service:</p>
+          <p className="text-sm text-content">Selected Service:</p>
           <p className="font-semibold">{selectedService.name} - ${selectedService.basePrice}</p>
         </div>
       )}
@@ -211,12 +211,12 @@ const BookingPage = () => {
               </div>
               <div className="flex-1">
                 <h3 className="mb-1">{doctor.user.name}</h3>
-                <p className="text-sm text-text-secondary mb-2">{doctor.specialty}</p>
+                <p className="text-sm text-content mb-2">{doctor.specialty}</p>
                 <div className="flex items-center space-x-4 text-sm">
                   <span>⭐ {doctor.rating.average} ({doctor.rating.count})</span>
                   <span>{doctor.yearsOfExperience} years exp.</span>
                 </div>
-                <p className="text-xs text-text-secondary mt-2 line-clamp-2">{doctor.bio}</p>
+                <p className="text-xs text-content mt-2 line-clamp-2">{doctor.bio}</p>
                 <p className="text-lg font-semibold text-primary mt-2">${doctor.consultationFee}</p>
               </div>
             </div>
@@ -240,7 +240,7 @@ const BookingPage = () => {
 
       {selectedDoctor && (
         <div className="bg-primary-light p-4 rounded-lg mb-6">
-          <p className="text-sm text-text-secondary">Appointment with:</p>
+          <p className="text-sm text-content">Appointment with:</p>
           <p className="font-semibold">{selectedDoctor.user.name} - {selectedService?.name}</p>
           <p className="text-primary font-semibold">${selectedDoctor.consultationFee}</p>
         </div>
@@ -322,7 +322,7 @@ const BookingPage = () => {
         <div className="flex justify-between items-center">
           <div>
             <p className="text-lg font-semibold">Total: ${selectedDoctor?.consultationFee}</p>
-            <p className="text-sm text-text-secondary">Payment will be processed securely</p>
+            <p className="text-sm text-content">Payment will be processed securely</p>
           </div>
           <button
             onClick={handleBooking}
