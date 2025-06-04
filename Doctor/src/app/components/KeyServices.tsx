@@ -3,83 +3,115 @@ import { FaStethoscope, FaBrain, FaBaby, FaStar, FaPills } from 'react-icons/fa'
 
 const KeyServices = () => {
   return (
-    <section className="container-section bg-white">
-      <div className="container-max">
-        <h2 className="text-center mb-12">
-          Our Key Services
-        </h2>
+    <section className="section-padding bg-white" style={{padding: '40px 20px'}}>
+      <div className="container-max" style={{padding: '30px'}}>
+        <div style={{clear: 'both', padding: '20px'}}></div>
+        <div className="text-center mb-20">
+          <h2 className="mb-6">Our Key Services</h2>
+          <div style={{clear: 'both', padding: '10px'}}></div>
+          <p className="text-subtitle max-w-2xl mx-auto">
+            Professional healthcare services delivered through secure, convenient online consultations
+          </p>
+        </div>
+        <div style={{clear: 'both', padding: '25px'}}></div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <Link 
             href="/services/general"
-            className="card block group mb-0"
+            className="card card-interactive hover-lift focus-ring group"
+            style={{padding: '35px', margin: '15px'}}
           >
-            <div className="text-4xl mb-4 text-primary">
+            <div className="text-5xl mb-8 text-primary transition-transform duration-300 group-hover:scale-110">
               <FaStethoscope />
             </div>
-            <h3 className="mb-3">General Consultations</h3>
-            <p className="text-content mb-4">Consult with a general practitioner for common health concerns and medical advice.</p>
-            <span className="text-primary font-medium group-hover:text-primary-hover transition-colors">
-              Learn more →
-            </span>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <h3 className="mb-5 group-hover:text-primary transition-colors">General Consultations</h3>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <p className="text-content mb-8 leading-relaxed">Consult with a general practitioner for common health concerns and medical advice.</p>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <div className="flex items-center text-primary font-semibold group-hover:gap-2 transition-all">
+              <span>Learn more</span>
+              <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
           </Link>
           
           <Link 
             href="/services/mental-health"
-            className="card block group mb-0"
+            className="card card-interactive hover-lift focus-ring group"
+            style={{padding: '35px', margin: '15px'}}
           >
-            <div className="text-4xl mb-4 text-primary">
+            <div className="text-5xl mb-8 text-primary transition-transform duration-300 group-hover:scale-110">
               <FaBrain />
             </div>
-            <h3 className="mb-3">Mental Health</h3>
-            <p className="text-content mb-4">Speak with licensed therapists and psychiatrists for mental health support.</p>
-            <span className="text-primary font-medium group-hover:text-primary-hover transition-colors">
-              Learn more →
-            </span>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <h3 className="mb-5 group-hover:text-primary transition-colors">Mental Health</h3>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <p className="text-content mb-8 leading-relaxed">Speak with licensed therapists and psychiatrists for mental health support.</p>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <div className="flex items-center text-primary font-semibold group-hover:gap-2 transition-all">
+              <span>Learn more</span>
+              <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
           </Link>
           
           <Link 
             href="/services/pediatrics"
-            className="card block group mb-0"
+            className="card card-interactive hover-lift focus-ring group"
+            style={{padding: '35px', margin: '15px'}}
           >
-            <div className="text-4xl mb-4 text-primary">
+            <div className="text-5xl mb-8 text-primary transition-transform duration-300 group-hover:scale-110">
               <FaBaby />
             </div>
-            <h3 className="mb-3">Pediatrics</h3>
-            <p className="text-content mb-4">Professional care for your children from experienced pediatricians.</p>
-            <span className="text-primary font-medium group-hover:text-primary-hover transition-colors">
-              Learn more →
-            </span>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <h3 className="mb-5 group-hover:text-primary transition-colors">Pediatrics</h3>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <p className="text-content mb-8 leading-relaxed">Professional care for your children from experienced pediatricians.</p>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <div className="flex items-center text-primary font-semibold group-hover:gap-2 transition-all">
+              <span>Learn more</span>
+              <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
           </Link>
           
           <Link 
             href="/services/dermatology"
-            className="card block group mb-0"
+            className="card card-interactive hover-lift focus-ring group"
+            style={{padding: '35px', margin: '15px'}}
           >
-            <div className="text-4xl mb-4 text-primary">
+            <div className="text-5xl mb-8 text-primary transition-transform duration-300 group-hover:scale-110">
               <FaStar />
             </div>
-            <h3 className="mb-3">Dermatology</h3>
-            <p className="text-content mb-4">Get skin conditions diagnosed and treated by dermatology specialists.</p>
-            <span className="text-primary font-medium group-hover:text-primary-hover transition-colors">
-              Learn more →
-            </span>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <h3 className="mb-5 group-hover:text-primary transition-colors">Dermatology</h3>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <p className="text-content mb-8 leading-relaxed">Get skin conditions diagnosed and treated by dermatology specialists.</p>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <div className="flex items-center text-primary font-semibold group-hover:gap-2 transition-all">
+              <span>Learn more</span>
+              <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
           </Link>
           
           <Link 
             href="/services/prescriptions"
-            className="card block group mb-0"
+            className="card card-interactive hover-lift focus-ring group"
+            style={{padding: '35px', margin: '15px'}}
           >
-            <div className="text-4xl mb-4 text-primary">
+            <div className="text-5xl mb-8 text-primary transition-transform duration-300 group-hover:scale-110">
               <FaPills />
             </div>
-            <h3 className="mb-3">Prescription Refills</h3>
-            <p className="text-content mb-4">Easily renew your prescriptions without visiting a physical pharmacy.</p>
-            <span className="text-primary font-medium group-hover:text-primary-hover transition-colors">
-              Learn more →
-            </span>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <h3 className="mb-5 group-hover:text-primary transition-colors">Prescription Refills</h3>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <p className="text-content mb-8 leading-relaxed">Easily renew your prescriptions without visiting a physical pharmacy.</p>
+            <div style={{clear: 'both', padding: '8px'}}></div>
+            <div className="flex items-center text-primary font-semibold group-hover:gap-2 transition-all">
+              <span>Learn more</span>
+              <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
           </Link>
         </div>
+        <div style={{clear: 'both', padding: '30px'}}></div>
       </div>
     </section>
   );

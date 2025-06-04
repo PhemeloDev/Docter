@@ -14,22 +14,24 @@ type DoctorProps = {
 
 const DoctorCard = ({ doctor }: { doctor: DoctorProps }) => {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-      <div className="relative h-64 w-full">
+    <div className="card card-interactive hover-lift focus-ring group">
+      <div className="relative h-64 w-full rounded-lg overflow-hidden mb-6">
         <Image
           src={doctor.image}
           alt={doctor.name}
           fill
-          className="object-cover"
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       
-      <div className="p-6">
-        <h3 className="text-xl font-semibold text-black mb-1">{doctor.name}</h3>
-        <p className="text-blue-600 font-medium mb-2">{doctor.specialty}</p>
+      <div className="space-y-4">
+        <div>
+          <h3 className="text-xl font-semibold mb-1 group-hover:text-primary transition-colors">{doctor.name}</h3>
+          <p className="text-primary font-medium">{doctor.specialty}</p>
+        </div>
         
-        <div className="mb-4 flex items-center">
-          <div className="flex mr-2">
+        <div className="flex items-center space-x-2">
+          <div className="flex">
             {[...Array(5)].map((_, i) => (
               <FiStar
                 key={i}
@@ -39,19 +41,21 @@ const DoctorCard = ({ doctor }: { doctor: DoctorProps }) => {
               />
             ))}
           </div>
-          <span className="text-sm text-black">({doctor.rating}.0)</span>
+          <span className="text-sm text-content font-medium">({doctor.rating}.0)</span>
         </div>
         
-        <div className="mb-4">
-          <p className="text-black"><span className="font-medium">Experience:</span> {doctor.experience}</p>
-          <p className="text-black">
-            <span className="font-medium">Languages:</span> {doctor.languages.join(', ')}
+        <div className="space-y-2 text-sm">
+          <p className="text-content">
+            <span className="font-semibold text-black">Experience:</span> {doctor.experience}
+          </p>
+          <p className="text-content">
+            <span className="font-semibold text-black">Languages:</span> {doctor.languages.join(', ')}
           </p>
         </div>
         
         <Link 
           href={`/book/${doctor.id}`}
-          className="w-full block text-center py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+          className="btn-primary w-full hover-lift focus-ring"
         >
           Book Now
         </Link>
