@@ -1,0 +1,83 @@
+{
+  "name": "healthhive-test-suite",
+  "version": "1.0.0",
+  "description": "Comprehensive test suite for HealthHive telemedicine platform",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:integration": "jest --testPathPattern=integration",
+    "test:e2e": "jest --testPathPattern=e2e",
+    "test:api": "jest --testPathPattern=api",
+    "test:ui": "jest --testPathPattern=selenium",
+    "test:performance": "jest --testPathPattern=performance",
+    "test:auth": "jest test-scenarios/authentication.test.js",
+    "test:doctors": "jest test-scenarios/doctor-management.test.js",
+    "test:appointments": "jest test-scenarios/appointment-booking.test.js",
+    "test:payments": "jest test-scenarios/payment-processing.test.js",
+    "test:analytics": "jest test-scenarios/analytics.test.js",
+    "setup:test-db": "node utils/database-helpers.js setup",
+    "cleanup:test-db": "node utils/database-helpers.js cleanup",
+    "generate:test-data": "node utils/test-data-generator.js",
+    "report:coverage": "jest --coverage && open coverage/lcov-report/index.html",
+    "selenium:install": "npx selenium-standalone install",
+    "selenium:start": "npx selenium-standalone start"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "stripe": "^13.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "selenium-webdriver": "^4.15.0",
+    "webdriverio": "^8.20.0",
+    "@testing-library/jest-dom": "^6.1.0",
+    "jest-environment-node": "^29.7.0",
+    "mongodb-memory-server": "^9.0.0",
+    "puppeteer": "^21.0.0",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.21",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "artillery": "^2.0.0",
+    "jest-junit": "^16.0.0",
+    "jest-html-reporter": "^3.10.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": ["<rootDir>/config/jest.setup.js"],
+    "testMatch": [
+      "**/__tests__/**/*.js",
+      "**/?(*.)+(spec|test).js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/reports/**"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html",
+      "json"
+    ],
+    "testTimeout": 30000,
+    "verbose": true
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "telemedicine",
+    "healthcare",
+    "jest",
+    "selenium",
+    "api-testing"
+  ],
+  "author": "HealthHive Test Team",
+  "license": "ISC"
+} 

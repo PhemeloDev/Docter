@@ -1,0 +1,232 @@
+[
+  {
+    "id": "patient_001",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@test.com",
+    "password": "SecurePassword123!",
+    "role": "patient",
+    "dateOfBirth": "1985-06-15",
+    "gender": "male",
+    "phone": "+1-555-0123",
+    "address": {
+      "street": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "emergencyContact": {
+      "name": "Jane Doe",
+      "relationship": "spouse",
+      "phone": "+1-555-0124"
+    },
+    "medicalHistory": {
+      "allergies": ["Penicillin", "Shellfish"],
+      "medications": ["Lisinopril 10mg"],
+      "conditions": ["Hypertension"],
+      "surgeries": []
+    },
+    "insurance": {
+      "provider": "Blue Cross Blue Shield",
+      "policyNumber": "BC123456789",
+      "groupNumber": "GRP001"
+    },
+    "preferences": {
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      },
+      "consultationType": "video"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "patient_002", 
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@test.com",
+    "password": "SecurePassword123!",
+    "role": "patient",
+    "dateOfBirth": "1990-03-22",
+    "gender": "female",
+    "phone": "+1-555-0125",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90001",
+      "country": "USA"
+    },
+    "emergencyContact": {
+      "name": "Robert Johnson",
+      "relationship": "father",
+      "phone": "+1-555-0126"
+    },
+    "medicalHistory": {
+      "allergies": [],
+      "medications": ["Multivitamin"],
+      "conditions": [],
+      "surgeries": ["Appendectomy (2015)"]
+    },
+    "insurance": {
+      "provider": "Aetna",
+      "policyNumber": "AET987654321",
+      "groupNumber": "GRP002"
+    },
+    "preferences": {
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      },
+      "consultationType": "chat"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "patient_003",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@test.com", 
+    "password": "SecurePassword123!",
+    "role": "patient",
+    "dateOfBirth": "1978-11-08",
+    "gender": "male",
+    "phone": "+1-555-0127",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "emergencyContact": {
+      "name": "Lisa Brown",
+      "relationship": "wife",
+      "phone": "+1-555-0128"
+    },
+    "medicalHistory": {
+      "allergies": ["Latex"],
+      "medications": ["Metformin 500mg", "Atorvastatin 20mg"],
+      "conditions": ["Type 2 Diabetes", "High Cholesterol"],
+      "surgeries": []
+    },
+    "insurance": {
+      "provider": "Cigna",
+      "policyNumber": "CIG456789123",
+      "groupNumber": "GRP003"
+    },
+    "preferences": {
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      },
+      "consultationType": "phone"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "createdAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "patient_004",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@test.com",
+    "password": "SecurePassword123!",
+    "role": "patient",
+    "dateOfBirth": "1995-07-12",
+    "gender": "female",
+    "phone": "+1-555-0129",
+    "address": {
+      "street": "321 Elm Street",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "emergencyContact": {
+      "name": "Mark Davis",
+      "relationship": "brother",
+      "phone": "+1-555-0130"
+    },
+    "medicalHistory": {
+      "allergies": ["Sulfa drugs"],
+      "medications": [],
+      "conditions": ["Asthma"],
+      "surgeries": []
+    },
+    "insurance": {
+      "provider": "UnitedHealth",
+      "policyNumber": "UH789123456",
+      "groupNumber": "GRP004"
+    },
+    "preferences": {
+      "language": "en",
+      "notifications": {
+        "email": false,
+        "sms": true,
+        "push": true
+      },
+      "consultationType": "video"
+    },
+    "isActive": true,
+    "emailVerified": false,
+    "createdAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "patient_005",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@test.com",
+    "password": "SecurePassword123!",
+    "role": "patient",
+    "dateOfBirth": "1982-09-30",
+    "gender": "male",
+    "phone": "+1-555-0131",
+    "address": {
+      "street": "654 Maple Drive",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA"
+    },
+    "emergencyContact": {
+      "name": "Amanda Wilson",
+      "relationship": "wife",
+      "phone": "+1-555-0132"
+    },
+    "medicalHistory": {
+      "allergies": [],
+      "medications": ["Ibuprofen 400mg PRN"],
+      "conditions": ["Chronic back pain"],
+      "surgeries": ["Herniated disc repair (2020)"]
+    },
+    "insurance": {
+      "provider": "Kaiser Permanente",
+      "policyNumber": "KP123789456",
+      "groupNumber": "GRP005"
+    },
+    "preferences": {
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      },
+      "consultationType": "video"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "createdAt": "2024-01-05T00:00:00.000Z"
+  }
+] 

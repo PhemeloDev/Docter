@@ -53,116 +53,97 @@ export default function SignupPage() {
   };
 
   return (
-    <main>
+    <main className="min-h-screen flex flex-col">
       <Header />
       
-      <section className="section-padding-sm bg-light-gray min-h-screen flex items-center justify-center" style={{padding: '50px 20px'}}>
-        <div className="container-max" style={{padding: '30px'}}>
-          <div style={{clear: 'both', padding: '20px'}}></div>
-          <div className="max-w-md mx-auto">
-            <div className="card card-elevated" style={{padding: '40px', margin: '20px'}}>
-              <div className="text-center mb-10">
-                <h1 className="mb-4">Create Your Account</h1>
-                <div style={{clear: 'both', padding: '8px'}}></div>
-                <p className="text-subtitle">Join HealthHive today</p>
+      <section className="flex-1 flex items-center justify-center py-20 px-4 bg-gradient-to-br from-primary-light via-white to-primary-light/50">
+        <div className="w-full max-w-md">
+          <div className="card card-elevated p-8 bg-white shadow-strong">
+            <div className="text-center mb-8">
+              <h1 className="text-3xl font-bold text-text-primary mb-3">Create Your Account</h1>
+              <p className="text-subtitle">Join HealthHive today</p>
+            </div>
+            
+            {error && (
+              <div className="mb-6 p-4 bg-red-50 border border-red-200 text-red-700 rounded-lg text-sm">
+                {error}
               </div>
-              <div style={{clear: 'both', padding: '15px'}}></div>
+            )}
+            
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="form-group">
+                <label htmlFor="email" className="form-label">
+                  Email Address
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="form-input focus-ring w-full"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
               
-              {error && (
-                <div className="mb-8 p-5 bg-red-50 border border-red-200 text-red-700 rounded-lg">
-                  {error}
-                </div>
-              )}
-              <div style={{clear: 'both', padding: '10px'}}></div>
+              <div className="form-group">
+                <label htmlFor="password" className="form-label">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  id="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="form-input focus-ring w-full"
+                  placeholder="Enter your password"
+                  required
+                />
+              </div>
               
-              <form onSubmit={handleSubmit} className="space-y-8">
-                <div className="form-group">
-                  <label htmlFor="email" className="form-label">
-                    Email Address
-                  </label>
-                  <div style={{clear: 'both', padding: '5px'}}></div>
-                  <input
-                    type="email"
-                    id="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="form-input focus-ring"
-                    placeholder="Enter your email"
-                    required
-                    style={{margin: '8px 0'}}
-                  />
-                </div>
-                <div style={{clear: 'both', padding: '10px'}}></div>
-                
-                <div className="form-group">
-                  <label htmlFor="password" className="form-label">
-                    Password
-                  </label>
-                  <div style={{clear: 'both', padding: '5px'}}></div>
-                  <input
-                    type="password"
-                    id="password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    className="form-input focus-ring"
-                    placeholder="Enter your password"
-                    required
-                    style={{margin: '8px 0'}}
-                  />
-                </div>
-                <div style={{clear: 'both', padding: '10px'}}></div>
-                
-                <div className="form-group">
-                  <label htmlFor="confirmPassword" className="form-label">
-                    Confirm Password
-                  </label>
-                  <div style={{clear: 'both', padding: '5px'}}></div>
-                  <input
-                    type="password"
-                    id="confirmPassword"
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
-                    className="form-input focus-ring"
-                    placeholder="Confirm your password"
-                    required
-                    style={{margin: '8px 0'}}
-                  />
-                </div>
-                <div style={{clear: 'both', padding: '15px'}}></div>
-                
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="btn-primary w-full hover-lift focus-ring"
-                  style={{margin: '15px 0', padding: '18px'}}
+              <div className="form-group">
+                <label htmlFor="confirmPassword" className="form-label">
+                  Confirm Password
+                </label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  className="form-input focus-ring w-full"
+                  placeholder="Confirm your password"
+                  required
+                />
+              </div>
+              
+              <button
+                type="submit"
+                disabled={loading}
+                className="btn-primary w-full btn-lg hover-lift focus-ring"
+              >
+                {loading ? (
+                  <span className="flex items-center justify-center">
+                    <span className="spinner mr-3"></span>
+                    Creating Account...
+                  </span>
+                ) : (
+                  'Sign Up'
+                )}
+              </button>
+            </form>
+            
+            <div className="mt-8 text-center">
+              <div className="text-content text-sm">
+                Already have an account?{' '}
+                <Link 
+                  href="/login" 
+                  className="text-primary hover:text-primary-hover font-semibold hover:underline focus-ring rounded px-2 py-1 transition-colors"
                 >
-                  {loading ? (
-                    <span className="flex items-center justify-center">
-                      <span className="spinner mr-3"></span>
-                      Creating Account...
-                    </span>
-                  ) : (
-                    'Sign Up'
-                  )}
-                </button>
-              </form>
-              <div style={{clear: 'both', padding: '20px'}}></div>
-              
-              <div className="mt-10 space-y-6 text-center">
-                <div className="text-content">
-                  Already have an account?{' '}
-                  <Link 
-                    href="/login" 
-                    className="text-primary hover:text-primary-hover font-semibold hover:underline focus-ring rounded px-3 py-2"
-                    style={{margin: '10px'}}
-                  >
-                    Log In
-                  </Link>
-                </div>
+                  Log In
+                </Link>
               </div>
             </div>
           </div>
-          <div style={{clear: 'both', padding: '25px'}}></div>
         </div>
       </section>
       
