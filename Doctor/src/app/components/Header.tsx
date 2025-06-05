@@ -18,40 +18,38 @@ const Header = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-12">
-            <Link href="/" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring" style={{margin: '0 8px'}}>
+          <nav className="hidden lg:flex items-center space-x-8">
+            <Link href="/" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring">
               Home
             </Link>
-            <Link href="/services" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring" style={{margin: '0 8px'}}>
+            <Link href="/services" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring">
               Services
             </Link>
-            <Link href="/book" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring" style={{margin: '0 8px'}}>
+            <Link href="/book" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring">
               Book a Doctor
             </Link>
-            <Link href="/about" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring" style={{margin: '0 8px'}}>
+            <Link href="/about" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring">
               About Us
             </Link>
-            <Link href="/faqs" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring" style={{margin: '0 8px'}}>
+            <Link href="/faqs" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring">
               FAQs
             </Link>
-            <Link href="/contact" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring" style={{margin: '0 8px'}}>
+            <Link href="/contact" className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring">
               Contact
             </Link>
           </nav>
           
           {/* Authentication Buttons */}
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-4">
             <Link 
               href="/login" 
-              className="btn-ghost focus-ring"
-              style={{margin: '0 10px', padding: '12px 20px'}}
+              className="btn-ghost focus-ring px-5 py-3"
             >
               Login
             </Link>
             <Link 
               href="/signup" 
-              className="btn-primary hover-lift focus-ring"
-              style={{margin: '0 10px', padding: '12px 20px'}}
+              className="btn-primary hover-lift focus-ring px-5 py-3"
             >
               Sign Up
             </Link>
@@ -84,76 +82,62 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="lg:hidden mt-6 pb-6 border-t border-gray-100 animate-fade-in">
-            <nav className="flex flex-col space-y-6 pt-8" style={{padding: '15px'}}>
+            <nav className="flex flex-col space-y-2 pt-6">
               <Link 
                 href="/" 
-                className="text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring"
+                className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring"
                 onClick={() => setIsMobileMenuOpen(false)}
-                style={{margin: '8px 0'}}
               >
                 Home
               </Link>
-              <div style={{clear: 'both', padding: '5px'}}></div>
               <Link 
                 href="/services" 
-                className="text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring"
+                className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring"
                 onClick={() => setIsMobileMenuOpen(false)}
-                style={{margin: '8px 0'}}
               >
                 Services
               </Link>
-              <div style={{clear: 'both', padding: '5px'}}></div>
               <Link 
                 href="/book" 
-                className="text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring"
+                className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring"
                 onClick={() => setIsMobileMenuOpen(false)}
-                style={{margin: '8px 0'}}
               >
                 Book a Doctor
               </Link>
-              <div style={{clear: 'both', padding: '5px'}}></div>
               <Link 
                 href="/about" 
-                className="text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring"
+                className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring"
                 onClick={() => setIsMobileMenuOpen(false)}
-                style={{margin: '8px 0'}}
               >
                 About Us
               </Link>
-              <div style={{clear: 'both', padding: '5px'}}></div>
               <Link 
                 href="/faqs" 
-                className="text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring"
+                className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring"
                 onClick={() => setIsMobileMenuOpen(false)}
-                style={{margin: '8px 0'}}
               >
                 FAQs
               </Link>
-              <div style={{clear: 'both', padding: '5px'}}></div>
               <Link 
                 href="/contact" 
-                className="text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring"
+                className="text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring"
                 onClick={() => setIsMobileMenuOpen(false)}
-                style={{margin: '8px 0'}}
               >
                 Contact
               </Link>
-              <div style={{clear: 'both', padding: '15px'}}></div>
-              <div className="flex flex-col space-y-4 pt-8 px-6">
+              
+              <div className="flex flex-col space-y-3 pt-6 px-4 border-t border-gray-100 mt-4">
                 <Link 
                   href="/login" 
-                  className="btn-ghost text-center focus-ring"
+                  className="btn-ghost text-center focus-ring py-3"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  style={{margin: '10px 0', padding: '15px'}}
                 >
                   Login
                 </Link>
-                <div style={{clear: 'both', padding: '5px'}}></div>
                 <Link 
                   href="/signup" 
-                  className="btn-primary text-center focus-ring"
+                  className="btn-primary text-center focus-ring py-3"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  style={{margin: '10px 0', padding: '15px'}}
                 >
                   Sign Up
                 </Link>

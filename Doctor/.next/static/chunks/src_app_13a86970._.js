@@ -44,14 +44,11 @@ const Header = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                            className: "hidden lg:flex items-center space-x-12",
+                            className: "hidden lg:flex items-center space-x-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/",
                                     className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
-                                    style: {
-                                        margin: '0 8px'
-                                    },
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -61,9 +58,6 @@ const Header = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/services",
                                     className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
-                                    style: {
-                                        margin: '0 8px'
-                                    },
                                     children: "Services"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -73,9 +67,6 @@ const Header = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/book",
                                     className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
-                                    style: {
-                                        margin: '0 8px'
-                                    },
                                     children: "Book a Doctor"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -85,9 +76,6 @@ const Header = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/about",
                                     className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
-                                    style: {
-                                        margin: '0 8px'
-                                    },
                                     children: "About Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -97,9 +85,6 @@ const Header = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/faqs",
                                     className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
-                                    style: {
-                                        margin: '0 8px'
-                                    },
                                     children: "FAQs"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -109,9 +94,6 @@ const Header = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact",
                                     className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
-                                    style: {
-                                        margin: '0 8px'
-                                    },
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -125,15 +107,11 @@ const Header = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "hidden lg:flex items-center space-x-6",
+                            className: "hidden lg:flex items-center space-x-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/login",
-                                    className: "btn-ghost focus-ring",
-                                    style: {
-                                        margin: '0 10px',
-                                        padding: '12px 20px'
-                                    },
+                                    className: "btn-ghost focus-ring px-5 py-3",
                                     children: "Login"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
@@ -142,15 +120,11 @@ const Header = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/signup",
-                                    className: "btn-primary hover-lift focus-ring",
-                                    style: {
-                                        margin: '0 10px',
-                                        padding: '12px 20px'
-                                    },
+                                    className: "btn-primary hover-lift focus-ring px-5 py-3",
                                     children: "Sign Up"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -175,23 +149,23 @@ const Header = ()=>{
                                     d: "M6 18L18 6M6 6l12 12"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 74,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                     d: "M4 6h16M4 12h16M4 18h16"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Header.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 76,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 66,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/Header.tsx",
-                            lineNumber: 61,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     ]
@@ -203,205 +177,106 @@ const Header = ()=>{
                 isMobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "lg:hidden mt-6 pb-6 border-t border-gray-100 animate-fade-in",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                        className: "flex flex-col space-y-6 pt-8",
-                        style: {
-                            padding: '15px'
-                        },
+                        className: "flex flex-col space-y-2 pt-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
-                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring",
+                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
                                 onClick: ()=>setIsMobileMenuOpen(false),
-                                style: {
-                                    margin: '8px 0'
-                                },
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 88,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '5px'
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 96,
+                                lineNumber: 86,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/services",
-                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring",
+                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
                                 onClick: ()=>setIsMobileMenuOpen(false),
-                                style: {
-                                    margin: '8px 0'
-                                },
                                 children: "Services"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 97,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '5px'
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 105,
+                                lineNumber: 93,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/book",
-                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring",
+                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
                                 onClick: ()=>setIsMobileMenuOpen(false),
-                                style: {
-                                    margin: '8px 0'
-                                },
                                 children: "Book a Doctor"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 106,
+                                lineNumber: 100,
                                 columnNumber: 15
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '5px'
-                                }
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/about",
+                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
+                                onClick: ()=>setIsMobileMenuOpen(false),
+                                children: "About Us"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Header.tsx",
+                                lineNumber: 107,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/faqs",
+                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
+                                onClick: ()=>setIsMobileMenuOpen(false),
+                                children: "FAQs"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Header.tsx",
                                 lineNumber: 114,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/about",
-                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring",
-                                onClick: ()=>setIsMobileMenuOpen(false),
-                                style: {
-                                    margin: '8px 0'
-                                },
-                                children: "About Us"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 115,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '5px'
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 123,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/faqs",
-                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring",
-                                onClick: ()=>setIsMobileMenuOpen(false),
-                                style: {
-                                    margin: '8px 0'
-                                },
-                                children: "FAQs"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 124,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '5px'
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 132,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/contact",
-                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-5 py-4 rounded-lg hover:bg-primary-light focus-ring",
+                                className: "text-black hover:text-primary transition-all duration-200 font-medium px-4 py-3 rounded-lg hover:bg-primary-light focus-ring",
                                 onClick: ()=>setIsMobileMenuOpen(false),
-                                style: {
-                                    margin: '8px 0'
-                                },
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 133,
+                                lineNumber: 121,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '15px'
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 141,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col space-y-4 pt-8 px-6",
+                                className: "flex flex-col space-y-3 pt-6 px-4 border-t border-gray-100 mt-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/login",
-                                        className: "btn-ghost text-center focus-ring",
+                                        className: "btn-ghost text-center focus-ring py-3",
                                         onClick: ()=>setIsMobileMenuOpen(false),
-                                        style: {
-                                            margin: '10px 0',
-                                            padding: '15px'
-                                        },
                                         children: "Login"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Header.tsx",
-                                        lineNumber: 143,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            clear: 'both',
-                                            padding: '5px'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/Header.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 130,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/signup",
-                                        className: "btn-primary text-center focus-ring",
+                                        className: "btn-primary text-center focus-ring py-3",
                                         onClick: ()=>setIsMobileMenuOpen(false),
-                                        style: {
-                                            margin: '10px 0',
-                                            padding: '15px'
-                                        },
                                         children: "Sign Up"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Header.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 137,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Header.tsx",
-                                lineNumber: 142,
+                                lineNumber: 129,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Header.tsx",
-                        lineNumber: 87,
+                        lineNumber: 85,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Header.tsx",
-                    lineNumber: 86,
+                    lineNumber: 84,
                     columnNumber: 11
                 }, this)
             ]
@@ -984,173 +859,89 @@ const BookingPage = ()=>{
     };
     const renderStepIndicator = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-center mb-12",
-            style: {
-                padding: '20px'
-            },
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '10px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 140,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center space-x-6",
-                    children: [
-                        1,
-                        2,
-                        3
-                    ].map((stepNumber)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `w-12 h-12 rounded-full flex items-center justify-center text-sm font-semibold ${step >= stepNumber ? 'bg-primary text-white' : 'bg-gray-200 text-black'}`,
-                                    style: {
-                                        margin: '8px'
-                                    },
-                                    children: stepNumber
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 144,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        clear: 'both',
-                                        padding: '5px'
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 149,
-                                    columnNumber: 13
-                                }, this),
-                                stepNumber < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `w-20 h-2 mx-4 ${step > stepNumber ? 'bg-primary' : 'bg-gray-200'}`
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 151,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, stepNumber, true, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 143,
-                            columnNumber: 11
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 141,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 158,
-                    columnNumber: 7
-                }, this)
-            ]
-        }, void 0, true, {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center space-x-4",
+                children: [
+                    1,
+                    2,
+                    3
+                ].map((stepNumber)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `w-12 h-12 rounded-full flex items-center justify-center text-sm font-semibold transition-colors ${step >= stepNumber ? 'bg-primary text-white' : 'bg-gray-200 text-gray-600'}`,
+                                children: stepNumber
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/book/page.tsx",
+                                lineNumber: 143,
+                                columnNumber: 13
+                            }, this),
+                            stepNumber < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `w-16 h-2 mx-4 rounded transition-colors ${step > stepNumber ? 'bg-primary' : 'bg-gray-200'}`
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/book/page.tsx",
+                                lineNumber: 149,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, stepNumber, true, {
+                        fileName: "[project]/src/app/book/page.tsx",
+                        lineNumber: 142,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/src/app/book/page.tsx",
+                lineNumber: 140,
+                columnNumber: 7
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/src/app/book/page.tsx",
             lineNumber: 139,
             columnNumber: 5
         }, this);
     const renderServiceSelection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: {
-                padding: '20px'
-            },
+            className: "space-y-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-center mb-8",
+                    className: "text-center text-3xl font-bold text-text-primary",
                     children: "Select a Service"
                 }, void 0, false, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 164,
+                    lineNumber: 161,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '10px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 165,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
                     children: services.map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "card cursor-pointer group",
+                            className: "card cursor-pointer group hover:shadow-medium transition-all duration-200 p-6",
                             onClick: ()=>handleServiceSelect(service),
-                            style: {
-                                padding: '30px',
-                                margin: '15px'
-                            },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-4xl mb-6",
+                                    className: "text-4xl mb-4 text-center",
                                     children: service.icon
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 174,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        clear: 'both',
-                                        padding: '5px'
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "mb-4",
+                                    className: "text-xl font-semibold mb-3 text-center",
                                     children: service.name
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 176,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        clear: 'both',
-                                        padding: '5px'
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 170,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-content mb-6 text-sm",
+                                    className: "text-content text-sm mb-6 text-center line-clamp-2",
                                     children: service.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 171,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        clear: 'both',
-                                        padding: '5px'
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 179,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex justify-between items-center",
+                                    className: "flex justify-between items-center pt-4 border-t border-gray-100",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-lg font-semibold text-primary",
@@ -1160,7 +951,7 @@ const BookingPage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 181,
+                                            lineNumber: 173,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1171,126 +962,74 @@ const BookingPage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 182,
+                                            lineNumber: 174,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 180,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, service._id, true, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 168,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 166,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 187,
+                    lineNumber: 162,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/book/page.tsx",
-            lineNumber: 163,
+            lineNumber: 160,
             columnNumber: 5
         }, this);
     const renderDoctorSelection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: {
-                padding: '20px'
-            },
+            className: "space-y-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-between items-center mb-8",
-                    style: {
-                        padding: '15px'
-                    },
+                    className: "flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-text-primary",
                             children: "Choose Your Doctor"
                         }, void 0, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 194,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '10px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 195,
+                            lineNumber: 185,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setStep(1),
                             className: "btn-secondary text-sm",
-                            style: {
-                                margin: '10px'
-                            },
                             children: "Change Service"
                         }, void 0, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 196,
+                            lineNumber: 186,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 193,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 204,
+                    lineNumber: 184,
                     columnNumber: 7
                 }, this),
                 selectedService && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-primary-light rounded-lg mb-8",
-                    style: {
-                        color: 'black',
-                        padding: '20px',
-                        margin: '15px'
-                    },
+                    className: "bg-primary-light rounded-lg p-6 border border-primary/20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-sm text-content mb-2",
                             children: "Selected Service:"
                         }, void 0, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 207,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '5px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 208,
+                            lineNumber: 196,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "font-semibold",
+                            className: "font-semibold text-lg",
                             children: [
                                 selectedService.name,
                                 " - $",
@@ -1298,98 +1037,55 @@ const BookingPage = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 209,
+                            lineNumber: 197,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 206,
+                    lineNumber: 195,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 212,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                    className: "grid grid-cols-1 md:grid-cols-2 gap-6",
                     children: doctors.map((doctor)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "card cursor-pointer group",
+                            className: "card cursor-pointer group hover:shadow-medium transition-all duration-200 p-6",
                             onClick: ()=>handleDoctorSelect(doctor),
-                            style: {
-                                padding: '25px',
-                                margin: '15px'
-                            },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-start space-x-6",
+                                className: "flex items-start space-x-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-20 h-20 bg-primary-medium rounded-full flex items-center justify-center text-white font-semibold",
+                                        className: "w-16 h-16 bg-primary-medium rounded-full flex items-center justify-center text-white font-semibold text-lg flex-shrink-0",
                                         children: doctor.user.name.split(' ').map((n)=>n[0]).join('')
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/book/page.tsx",
-                                        lineNumber: 222,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            clear: 'both',
-                                            padding: '5px'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/book/page.tsx",
-                                        lineNumber: 225,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex-1",
+                                        className: "flex-1 min-w-0",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "mb-3",
+                                                className: "text-xl font-semibold mb-2",
                                                 children: doctor.user.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 227,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    clear: 'both',
-                                                    padding: '3px'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 228,
+                                                lineNumber: 213,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-content mb-3",
+                                                className: "text-sm text-content mb-2",
                                                 children: doctor.specialty
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 229,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    clear: 'both',
-                                                    padding: '3px'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 230,
+                                                lineNumber: 214,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex items-center space-x-4 text-sm mb-3",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "flex items-center",
                                                         children: [
                                                             "⭐ ",
                                                             doctor.rating.average,
@@ -1399,7 +1095,7 @@ const BookingPage = ()=>{
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/book/page.tsx",
-                                                        lineNumber: 232,
+                                                        lineNumber: 216,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1409,176 +1105,104 @@ const BookingPage = ()=>{
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/book/page.tsx",
-                                                        lineNumber: 233,
+                                                        lineNumber: 217,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 231,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    clear: 'both',
-                                                    padding: '3px'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 235,
+                                                lineNumber: 215,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-xs text-content mt-3 line-clamp-2",
+                                                className: "text-xs text-content line-clamp-2 mb-3",
                                                 children: doctor.bio
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 236,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    clear: 'both',
-                                                    padding: '5px'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 237,
+                                                lineNumber: 219,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-lg font-semibold text-primary mt-4",
+                                                className: "text-lg font-semibold text-primary",
                                                 children: [
                                                     "$",
                                                     doctor.consultationFee
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/book/page.tsx",
-                                                lineNumber: 238,
+                                                lineNumber: 220,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/book/page.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 212,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/book/page.tsx",
-                                lineNumber: 221,
+                                lineNumber: 208,
                                 columnNumber: 13
                             }, this)
                         }, doctor._id, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 215,
+                            lineNumber: 203,
                             columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 213,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 244,
+                    lineNumber: 201,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/book/page.tsx",
-            lineNumber: 192,
+            lineNumber: 183,
             columnNumber: 5
         }, this);
     const renderAppointmentScheduling = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: {
-                padding: '20px'
-            },
+            className: "space-y-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-between items-center mb-8",
-                    style: {
-                        padding: '15px'
-                    },
+                    className: "flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-text-primary",
                             children: "Schedule Your Appointment"
                         }, void 0, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 251,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '10px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 252,
+                            lineNumber: 232,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setStep(2),
                             className: "btn-secondary text-sm",
-                            style: {
-                                margin: '10px'
-                            },
                             children: "Change Doctor"
                         }, void 0, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 253,
+                            lineNumber: 233,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 250,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 261,
+                    lineNumber: 231,
                     columnNumber: 7
                 }, this),
                 selectedDoctor && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-primary-light rounded-lg mb-8",
-                    style: {
-                        padding: '20px',
-                        margin: '15px',
-                        color: 'black'
-                    },
+                    className: "bg-primary-light rounded-lg p-6 border border-primary/20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-sm text-content mb-2",
                             children: "Appointment with:"
                         }, void 0, false, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 265,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '5px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 266,
+                            lineNumber: 243,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "font-semibold",
+                            className: "font-semibold text-lg",
                             children: [
                                 selectedDoctor.user.name,
                                 " - ",
@@ -1586,168 +1210,97 @@ const BookingPage = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 267,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '5px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 268,
+                            lineNumber: 244,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-primary font-semibold",
+                            className: "text-primary font-semibold text-xl mt-2",
                             children: [
                                 "$",
                                 selectedDoctor.consultationFee
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 269,
+                            lineNumber: 245,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 264,
+                    lineNumber: 242,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '15px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 272,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-10",
-                    style: {
-                        padding: '15px'
-                    },
+                    className: "grid grid-cols-1 lg:grid-cols-2 gap-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                padding: '20px'
-                            },
+                            className: "space-y-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "mb-6",
+                                    className: "text-xl font-semibold",
                                     children: "Appointment Details"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 276,
+                                    lineNumber: 251,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        clear: 'both',
-                                        padding: '10px'
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 277,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-6",
+                                    className: "space-y-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-medium mb-3",
+                                                    className: "block text-sm font-medium mb-2",
                                                     children: "Preferred Date"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 280,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        clear: 'both',
-                                                        padding: '5px'
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 254,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                     type: "date",
-                                                    className: "form-input",
+                                                    className: "form-input w-full",
                                                     value: appointmentData.date,
                                                     min: new Date().toISOString().split('T')[0],
                                                     onChange: (e)=>setAppointmentData((prev)=>({
                                                                 ...prev,
                                                                 date: e.target.value
-                                                            })),
-                                                    style: {
-                                                        margin: '5px'
-                                                    }
+                                                            }))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 255,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 279,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                clear: 'both',
-                                                padding: '10px'
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 291,
+                                            lineNumber: 253,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-medium mb-3",
+                                                    className: "block text-sm font-medium mb-2",
                                                     children: "Preferred Time"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 294,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        clear: 'both',
-                                                        padding: '5px'
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 265,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                    className: "form-input",
+                                                    className: "form-input w-full",
                                                     value: appointmentData.time,
                                                     onChange: (e)=>setAppointmentData((prev)=>({
                                                                 ...prev,
                                                                 time: e.target.value
                                                             })),
-                                                    style: {
-                                                        margin: '5px'
-                                                    },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             value: "",
                                                             children: "Select a time"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/book/page.tsx",
-                                                            lineNumber: 302,
+                                                            lineNumber: 271,
                                                             columnNumber: 17
                                                         }, this),
                                                         generateTimeSlots().map((time)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1755,68 +1308,45 @@ const BookingPage = ()=>{
                                                                 children: time
                                                             }, time, false, {
                                                                 fileName: "[project]/src/app/book/page.tsx",
-                                                                lineNumber: 304,
+                                                                lineNumber: 273,
                                                                 columnNumber: 19
                                                             }, this))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 296,
+                                                    lineNumber: 266,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 293,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                clear: 'both',
-                                                padding: '10px'
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 308,
+                                            lineNumber: 264,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-medium mb-3",
+                                                    className: "block text-sm font-medium mb-2",
                                                     children: "Consultation Type"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 311,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        clear: 'both',
-                                                        padding: '5px'
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 312,
+                                                    lineNumber: 279,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                    className: "form-input",
+                                                    className: "form-input w-full",
                                                     value: appointmentData.type,
                                                     onChange: (e)=>setAppointmentData((prev)=>({
                                                                 ...prev,
                                                                 type: e.target.value
                                                             })),
-                                                    style: {
-                                                        margin: '5px'
-                                                    },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             value: "video",
                                                             children: "Video Call"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/book/page.tsx",
-                                                            lineNumber: 319,
+                                                            lineNumber: 285,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1824,7 +1354,7 @@ const BookingPage = ()=>{
                                                             children: "Chat"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/book/page.tsx",
-                                                            lineNumber: 320,
+                                                            lineNumber: 286,
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1832,216 +1362,141 @@ const BookingPage = ()=>{
                                                             children: "Phone Call"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/book/page.tsx",
-                                                            lineNumber: 321,
+                                                            lineNumber: 287,
                                                             columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 313,
+                                                    lineNumber: 280,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 310,
+                                            lineNumber: 278,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 278,
+                                    lineNumber: 252,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 275,
+                            lineNumber: 250,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                padding: '20px'
-                            },
+                            className: "space-y-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "mb-6",
+                                    className: "text-xl font-semibold",
                                     children: "Medical Information"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 328,
+                                    lineNumber: 294,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        clear: 'both',
-                                        padding: '10px'
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 329,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-6",
+                                    className: "space-y-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-medium mb-3",
+                                                    className: "block text-sm font-medium mb-2",
                                                     children: "Reason for Visit"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 332,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        clear: 'both',
-                                                        padding: '5px'
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 333,
+                                                    lineNumber: 297,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                                    className: "form-input",
-                                                    rows: 3,
+                                                    className: "form-input w-full",
+                                                    rows: 4,
                                                     placeholder: "Brief description of your concern...",
                                                     value: appointmentData.reasonForVisit,
                                                     onChange: (e)=>setAppointmentData((prev)=>({
                                                                 ...prev,
                                                                 reasonForVisit: e.target.value
-                                                            })),
-                                                    style: {
-                                                        margin: '5px'
-                                                    }
+                                                            }))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 334,
+                                                    lineNumber: 298,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 331,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                clear: 'both',
-                                                padding: '10px'
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 343,
+                                            lineNumber: 296,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "block text-sm font-medium mb-3",
+                                                    className: "block text-sm font-medium mb-2",
                                                     children: "Symptoms (Optional)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 346,
-                                                    columnNumber: 15
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        clear: 'both',
-                                                        padding: '5px'
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 347,
+                                                    lineNumber: 308,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                                    className: "form-input",
-                                                    rows: 3,
+                                                    className: "form-input w-full",
+                                                    rows: 4,
                                                     placeholder: "Any symptoms you're experiencing...",
                                                     value: appointmentData.symptoms,
                                                     onChange: (e)=>setAppointmentData((prev)=>({
                                                                 ...prev,
                                                                 symptoms: e.target.value
-                                                            })),
-                                                    style: {
-                                                        margin: '5px'
-                                                    }
+                                                            }))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/book/page.tsx",
-                                                    lineNumber: 348,
+                                                    lineNumber: 309,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/book/page.tsx",
-                                            lineNumber: 345,
+                                            lineNumber: 307,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/book/page.tsx",
-                                    lineNumber: 330,
+                                    lineNumber: 295,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 327,
+                            lineNumber: 293,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 274,
+                    lineNumber: 249,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '20px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 360,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-10 pt-8 border-t",
-                    style: {
-                        padding: '20px',
-                        margin: '15px'
-                    },
+                    className: "border-t pt-8",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-between items-center",
+                        className: "flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    padding: '15px'
-                                },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg font-semibold mb-2",
+                                        className: "text-2xl font-bold text-text-primary mb-2",
                                         children: [
                                             "Total: $",
                                             selectedDoctor?.consultationFee
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/book/page.tsx",
-                                        lineNumber: 365,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            clear: 'both',
-                                            padding: '5px'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/book/page.tsx",
-                                        lineNumber: 366,
+                                        lineNumber: 324,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2049,64 +1504,40 @@ const BookingPage = ()=>{
                                         children: "Payment will be processed securely"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/book/page.tsx",
-                                        lineNumber: 367,
+                                        lineNumber: 325,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/book/page.tsx",
-                                lineNumber: 364,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    clear: 'both',
-                                    padding: '10px'
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/book/page.tsx",
-                                lineNumber: 369,
+                                lineNumber: 323,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: handleBooking,
                                 disabled: loading || !appointmentData.date || !appointmentData.time || !appointmentData.reasonForVisit,
-                                className: "btn-primary",
-                                style: {
-                                    margin: '15px',
-                                    padding: '15px 30px'
-                                },
+                                className: "btn-primary btn-lg hover-lift disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none",
                                 children: loading ? 'Booking...' : 'Book Appointment'
                             }, void 0, false, {
                                 fileName: "[project]/src/app/book/page.tsx",
-                                lineNumber: 370,
+                                lineNumber: 327,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/book/page.tsx",
-                        lineNumber: 363,
+                        lineNumber: 322,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 362,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        clear: 'both',
-                        padding: '20px'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 380,
+                    lineNumber: 321,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/book/page.tsx",
-            lineNumber: 249,
+            lineNumber: 230,
             columnNumber: 5
         }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2114,95 +1545,38 @@ const BookingPage = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/book/page.tsx",
-                lineNumber: 386,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    clear: 'both',
-                    padding: '20px'
-                }
-            }, void 0, false, {
-                fileName: "[project]/src/app/book/page.tsx",
-                lineNumber: 387,
+                lineNumber: 341,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                className: "container-section",
-                style: {
-                    padding: '30px',
-                    margin: '20px'
-                },
+                className: "section-padding",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container-max",
-                    style: {
-                        padding: '25px'
-                    },
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '15px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 391,
-                            columnNumber: 11
-                        }, this),
                         renderStepIndicator(),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '20px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 393,
-                            columnNumber: 11
-                        }, this),
                         step === 1 && renderServiceSelection(),
                         step === 2 && renderDoctorSelection(),
-                        step === 3 && renderAppointmentScheduling(),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                clear: 'both',
-                                padding: '25px'
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/book/page.tsx",
-                            lineNumber: 399,
-                            columnNumber: 11
-                        }, this)
+                        step === 3 && renderAppointmentScheduling()
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/book/page.tsx",
-                    lineNumber: 390,
+                    lineNumber: 344,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/book/page.tsx",
-                lineNumber: 389,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    clear: 'both',
-                    padding: '20px'
-                }
-            }, void 0, false, {
-                fileName: "[project]/src/app/book/page.tsx",
-                lineNumber: 402,
+                lineNumber: 343,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/book/page.tsx",
-                lineNumber: 404,
+                lineNumber: 353,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/book/page.tsx",
-        lineNumber: 385,
+        lineNumber: 340,
         columnNumber: 5
     }, this);
 };

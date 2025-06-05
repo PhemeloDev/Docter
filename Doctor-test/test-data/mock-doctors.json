@@ -1,0 +1,456 @@
+[
+  {
+    "id": "doctor_001",
+    "firstName": "Dr. Sarah",
+    "lastName": "Martinez",
+    "email": "sarah.martinez@healthhive.com",
+    "password": "SecurePassword123!",
+    "role": "doctor",
+    "specialty": "Cardiology",
+    "subSpecialties": ["Interventional Cardiology", "Heart Failure"],
+    "licenseNumber": "MD12345678",
+    "experience": 15,
+    "education": [
+      {
+        "degree": "MD",
+        "institution": "Harvard Medical School",
+        "year": 2009
+      },
+      {
+        "degree": "Residency - Internal Medicine",
+        "institution": "Johns Hopkins Hospital",
+        "year": 2012
+      },
+      {
+        "degree": "Fellowship - Cardiology",
+        "institution": "Mayo Clinic",
+        "year": 2015
+      }
+    ],
+    "certifications": [
+      "Board Certified Internal Medicine",
+      "Board Certified Cardiology",
+      "Advanced Cardiac Life Support (ACLS)"
+    ],
+    "languages": ["English", "Spanish"],
+    "hourlyRate": 250,
+    "consultationFee": 200,
+    "followUpFee": 150,
+    "rating": 4.8,
+    "totalPatients": 1250,
+    "totalConsultations": 3500,
+    "availability": [
+      {
+        "day": "Monday",
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true,
+        "timeSlots": [
+          { "start": "08:00", "end": "08:30", "available": true },
+          { "start": "08:30", "end": "09:00", "available": true },
+          { "start": "09:00", "end": "09:30", "available": true }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "09:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": [
+          { "start": "09:00", "end": "09:30", "available": true },
+          { "start": "09:30", "end": "10:00", "available": true }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Thursday",
+        "startTime": "09:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Friday",
+        "startTime": "08:00",
+        "endTime": "15:00",
+        "isAvailable": true,
+        "timeSlots": []
+      }
+    ],
+    "consultationTypes": ["video", "chat", "phone"],
+    "acceptedInsurance": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealth"
+    ],
+    "bio": "Dr. Martinez is a board-certified cardiologist with over 15 years of experience treating complex cardiovascular conditions. She specializes in interventional cardiology and heart failure management.",
+    "profilePicture": "https://example.com/doctors/sarah-martinez.jpg",
+    "isActive": true,
+    "emailVerified": true,
+    "profileCompleted": true,
+    "verificationStatus": "verified",
+    "joinDate": "2020-01-15T00:00:00.000Z",
+    "lastLogin": "2024-01-10T09:30:00.000Z"
+  },
+  {
+    "id": "doctor_002",
+    "firstName": "Dr. Michael",
+    "lastName": "Thompson",
+    "email": "michael.thompson@healthhive.com",
+    "password": "SecurePassword123!",
+    "role": "doctor",
+    "specialty": "Dermatology",
+    "subSpecialties": ["Dermatopathology", "Cosmetic Dermatology"],
+    "licenseNumber": "MD87654321",
+    "experience": 12,
+    "education": [
+      {
+        "degree": "MD",
+        "institution": "Stanford University School of Medicine",
+        "year": 2012
+      },
+      {
+        "degree": "Residency - Dermatology",
+        "institution": "UCSF Medical Center",
+        "year": 2016
+      }
+    ],
+    "certifications": [
+      "Board Certified Dermatology",
+      "American Academy of Dermatology Member"
+    ],
+    "languages": ["English"],
+    "hourlyRate": 200,
+    "consultationFee": 175,
+    "followUpFee": 125,
+    "rating": 4.6,
+    "totalPatients": 980,
+    "totalConsultations": 2100,
+    "availability": [
+      {
+        "day": "Monday",
+        "startTime": "09:00",
+        "endTime": "18:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "09:00",
+        "endTime": "18:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "09:00",
+        "endTime": "18:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Thursday",
+        "startTime": "09:00",
+        "endTime": "18:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Friday",
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true,
+        "timeSlots": []
+      }
+    ],
+    "consultationTypes": ["video", "chat"],
+    "acceptedInsurance": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Kaiser Permanente"
+    ],
+    "bio": "Dr. Thompson is a skilled dermatologist specializing in both medical and cosmetic dermatology. He has extensive experience in skin cancer detection and advanced dermatological procedures.",
+    "profilePicture": "https://example.com/doctors/michael-thompson.jpg",
+    "isActive": true,
+    "emailVerified": true,
+    "profileCompleted": true,
+    "verificationStatus": "verified",
+    "joinDate": "2020-03-20T00:00:00.000Z",
+    "lastLogin": "2024-01-09T14:15:00.000Z"
+  },
+  {
+    "id": "doctor_003",
+    "firstName": "Dr. Emily",
+    "lastName": "Chen",
+    "email": "emily.chen@healthhive.com",
+    "password": "SecurePassword123!",
+    "role": "doctor",
+    "specialty": "Pediatrics",
+    "subSpecialties": ["Developmental Pediatrics", "Pediatric Neurology"],
+    "licenseNumber": "MD11223344",
+    "experience": 8,
+    "education": [
+      {
+        "degree": "MD",
+        "institution": "University of Chicago Pritzker School of Medicine",
+        "year": 2016
+      },
+      {
+        "degree": "Residency - Pediatrics",
+        "institution": "Children's Hospital of Philadelphia",
+        "year": 2019
+      },
+      {
+        "degree": "Fellowship - Pediatric Neurology",
+        "institution": "Boston Children's Hospital",
+        "year": 2021
+      }
+    ],
+    "certifications": [
+      "Board Certified Pediatrics",
+      "Pediatric Advanced Life Support (PALS)"
+    ],
+    "languages": ["English", "Mandarin"],
+    "hourlyRate": 180,
+    "consultationFee": 150,
+    "followUpFee": 100,
+    "rating": 4.9,
+    "totalPatients": 750,
+    "totalConsultations": 1800,
+    "availability": [
+      {
+        "day": "Monday",
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Thursday",
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Friday",
+        "startTime": "08:00",
+        "endTime": "14:00",
+        "isAvailable": true,
+        "timeSlots": []
+      }
+    ],
+    "consultationTypes": ["video", "chat", "phone"],
+    "acceptedInsurance": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealth",
+      "Kaiser Permanente"
+    ],
+    "bio": "Dr. Chen is a compassionate pediatrician with specialized training in developmental and neurological conditions in children. She provides comprehensive care for infants, children, and adolescents.",
+    "profilePicture": "https://example.com/doctors/emily-chen.jpg",
+    "isActive": true,
+    "emailVerified": true,
+    "profileCompleted": true,
+    "verificationStatus": "verified",
+    "joinDate": "2021-06-01T00:00:00.000Z",
+    "lastLogin": "2024-01-10T11:45:00.000Z"
+  },
+  {
+    "id": "doctor_004",
+    "firstName": "Dr. Robert",
+    "lastName": "Williams",
+    "email": "robert.williams@healthhive.com",
+    "password": "SecurePassword123!",
+    "role": "doctor",
+    "specialty": "Psychology",
+    "subSpecialties": ["Cognitive Behavioral Therapy", "Trauma Therapy"],
+    "licenseNumber": "PSY55667788",
+    "experience": 20,
+    "education": [
+      {
+        "degree": "PhD in Clinical Psychology",
+        "institution": "Yale University",
+        "year": 2004
+      },
+      {
+        "degree": "Internship - Clinical Psychology",
+        "institution": "McLean Hospital",
+        "year": 2005
+      }
+    ],
+    "certifications": [
+      "Licensed Clinical Psychologist",
+      "Certified CBT Therapist",
+      "EMDR Trained Therapist"
+    ],
+    "languages": ["English"],
+    "hourlyRate": 160,
+    "consultationFee": 120,
+    "followUpFee": 120,
+    "rating": 4.7,
+    "totalPatients": 1100,
+    "totalConsultations": 4200,
+    "availability": [
+      {
+        "day": "Monday",
+        "startTime": "10:00",
+        "endTime": "19:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "10:00",
+        "endTime": "19:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "10:00",
+        "endTime": "19:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Thursday",
+        "startTime": "10:00",
+        "endTime": "19:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Friday",
+        "startTime": "10:00",
+        "endTime": "17:00",
+        "isAvailable": true,
+        "timeSlots": []
+      }
+    ],
+    "consultationTypes": ["video", "chat"],
+    "acceptedInsurance": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna"
+    ],
+    "bio": "Dr. Williams is an experienced clinical psychologist specializing in cognitive behavioral therapy and trauma treatment. He has helped hundreds of patients overcome anxiety, depression, and PTSD.",
+    "profilePicture": "https://example.com/doctors/robert-williams.jpg",
+    "isActive": true,
+    "emailVerified": true,
+    "profileCompleted": true,
+    "verificationStatus": "verified",
+    "joinDate": "2019-09-15T00:00:00.000Z",
+    "lastLogin": "2024-01-09T16:30:00.000Z"
+  },
+  {
+    "id": "doctor_005",
+    "firstName": "Dr. Lisa",
+    "lastName": "Anderson",
+    "email": "lisa.anderson@healthhive.com",
+    "password": "SecurePassword123!",
+    "role": "doctor",
+    "specialty": "Family Medicine",
+    "subSpecialties": ["Preventive Medicine", "Geriatrics"],
+    "licenseNumber": "MD99887766",
+    "experience": 18,
+    "education": [
+      {
+        "degree": "MD",
+        "institution": "University of Michigan Medical School",
+        "year": 2006
+      },
+      {
+        "degree": "Residency - Family Medicine",
+        "institution": "University of Michigan Hospital",
+        "year": 2009
+      }
+    ],
+    "certifications": [
+      "Board Certified Family Medicine",
+      "Certificate in Geriatric Medicine"
+    ],
+    "languages": ["English", "French"],
+    "hourlyRate": 170,
+    "consultationFee": 140,
+    "followUpFee": 90,
+    "rating": 4.5,
+    "totalPatients": 1500,
+    "totalConsultations": 5000,
+    "availability": [
+      {
+        "day": "Monday",
+        "startTime": "07:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "07:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "07:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Thursday",
+        "startTime": "07:00",
+        "endTime": "16:00",
+        "isAvailable": true,
+        "timeSlots": []
+      },
+      {
+        "day": "Friday",
+        "startTime": "07:00",
+        "endTime": "14:00",
+        "isAvailable": true,
+        "timeSlots": []
+      }
+    ],
+    "consultationTypes": ["video", "chat", "phone"],
+    "acceptedInsurance": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealth",
+      "Kaiser Permanente"
+    ],
+    "bio": "Dr. Anderson is a dedicated family medicine physician with nearly two decades of experience providing comprehensive care to patients of all ages. She specializes in preventive medicine and geriatric care.",
+    "profilePicture": "https://example.com/doctors/lisa-anderson.jpg",
+    "isActive": true,
+    "emailVerified": true,
+    "profileCompleted": true,
+    "verificationStatus": "verified",
+    "joinDate": "2019-01-10T00:00:00.000Z",
+    "lastLogin": "2024-01-10T08:20:00.000Z"
+  }
+] 
